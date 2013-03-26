@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rotateOption">Rotate</string>
+    <string name="startApp">Start</string>
+    <string name="openGallery">Open Photo Gallery</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imageFromGallery">OlgaLaz</string>
+    <string name="image1">App2</string>
+    <string name="app_name">Photogeneia</string>
+    <string name="title_activity_show_image">Olga\'s</string>
+    <string name="title_activity_open_photo_gallery">Olga\'s</string>
+    <string name="title_activity_edit_image">Olga\'s</string>
+    <string name="title_activity_rotate_image">Olga\'s</string>
+    <string name="background_image">Background</string>
+    <string name="back">back</string>
+    <string name="title_bar_button1">frames</string>
+    <string name="title_bar_button2">rotate</string>
+    <string name="title_bar_button3">glow</string>
+    <string name="title_bar_button4">glow</string>
+    <string name="title_activity_custom_title_bar">CustomTitleBar</string>
+    <string name="bottom_button1">frames</string>
+    <string name="bottom_button2">rotate</string>
+    <string name="bottom_button3">light</string>
+    <string name="bottom_button4">CustomTitleBar</string>
+    <string name="Button1">Button1</string>
+    <string name="Button2">Button2</string>
+    <string name="Button3">Button3</string>
+    <string name="Button4">Button4</string>
+    <string name="Button5">Button5</string>
+    <string name="Button6">Button6</string>
+    <string name="Button7">Button7</string>
+    <string name="Button8">Button8</string>
+   
+    <string name="action1">action1</string>
+    <string name="action2">action2</string>
+    <string name="action3">action3</string>
+
+</resources>

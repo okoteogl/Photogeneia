@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    tools:context=".EditImage" >
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/imageFromGallery" >
+    </ImageView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/Button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@drawable/custom_button"
+                android:contentDescription="@string/Button1"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_1" />
+
+            <ImageButton
+                android:id="@+id/Button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/Button2"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_2" />
+
+            <ImageButton
+                android:id="@+id/Button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/Button3"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_3" />
+
+            <ImageButton
+                android:id="@+id/Button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/Button4"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_4" />
+
+            <ImageButton
+                android:id="@+id/Button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/Button5"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_5" />
+
+            <ImageButton
+                android:id="@+id/Button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/Button6"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_6" />
+
+            <ImageButton
+                android:id="@+id/Button7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/Button7"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_7" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

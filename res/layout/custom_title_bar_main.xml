@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:contentDescription="@string/title_bar_button2"
+        android:id="@+id/title_bar_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_bar_button1"
+        android:scaleType="fitXY" 
+        android:src= "@drawable/app_name"/>
+
+</LinearLayout>
