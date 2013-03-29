@@ -19,6 +19,6 @@ References
 
 <ol>
 <li>The filters used in the application are from
-<a href="http://code.google.com/p/android-jhlabs/">jhlbas</a>.
+<a href="http://code.google.com/p/android-jhlabs/">jhlabs</a>.
 <li>The launch icon is created by <a href="http://b.illbrown.com/">Billy Brown</a>.
 </ol>
